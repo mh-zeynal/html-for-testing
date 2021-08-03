@@ -1,0 +1,187 @@
+@keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 100}
+}
+
+body{
+    background-color: rgba(0,0,0,0.88);
+}
+
+.banner{
+    height: 200px;
+    width: 1480px;
+}
+
+.banner_title{
+    font-family: "Barlow Condensed ExtraBold";
+    animation-name: fadeIn;
+    animation-duration: 3s;
+    color: #ffffff;
+    position: absolute;
+    left: 650px;
+    top: 50px;
+    font-size: 50px;
+}
+
+.thank{
+    font-family: "Lucida Fax";
+    color: white;
+    font-size: 40px;
+    position: relative;
+    left: 280px;
+}
+
+.button{
+    border: red 2px solid;
+    border-radius: 18px;
+    width: 400px;
+    height: 150px;
+    background-color: #2f2f2f;
+    position: relative;
+    left: 300px;
+}
+
+.button2{
+    border: red 2px solid;
+    border-radius: 18px;
+    width: 400px;
+    height: 150px;
+    background-color: #2f2f2f;
+    position: relative;
+    left: 300px;
+    top: 60px;
+}
+
+.button_back1{
+    border-radius: 18px;
+    width: 400px;
+    height: 150px;
+    background-color: #051a2f;
+    float: left;
+    position: relative;
+    left: 280px;
+    top: 20px;
+}
+
+.button_back2{
+    margin-top: 30px;
+    border-radius: 18px;
+    width: 400px;
+    height: 150px;
+    background-color: #051a2f;
+    float: left;
+    position: relative;
+    left: 280px;
+    top: 50px;
+}
+
+.github_image{
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    position: relative;
+    top: -143px;
+    left: 10px;
+    border: rgba(0,0,0,0.88) 4px solid;
+}
+
+.github_text{
+    position: absolute;
+    float: left;
+    left: 200px;
+    top:-15px;
+    color: white;
+    font-family: "American Captain";
+    font-size:40px;
+}
+
+.github_repo_text{
+    position: absolute;
+    float: left;
+    left: 200px;
+    top:-15px;
+    color: white;
+    font-family: "American Captain";
+    font-size:40px;
+}
+
+.button:hover .github_text{
+    color: #450461;
+}
+
+.button:hover{
+    left: 310px;
+    top: -10px;
+}
+
+.github_repo_image{
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    top: -173px;
+    left: 10px;
+    border: rgba(0,0,0,0.88) 4px solid;
+    position: relative;
+}
+
+.button2:hover .github_repo_text{
+    color: #450461;
+}
+
+.button2:hover{
+    left: 310px;
+    top: 50px;
+}
+
+.mean_while{
+    font-family: "Lucida Fax";
+    color: white;
+    position: relative;
+    top: 60px;
+    left: 280px;
+    font-size: 40px;
+}
+
+.c_link{
+    position: relative;
+    top: 60px;
+    left: 280px;
+}
+
+.c{
+    height: 120px;
+    width: 120px;
+}
+
+.java_link{
+    position: relative;
+    top: 60px;
+    left: 300px;
+}
+
+.java{
+    height: 120px;
+    width: 120px;
+}
+
+.c_sharp_link{
+    position: relative;
+    top: 60px;
+    left: 320px;
+}
+
+.c_sharp{
+    height: 120px;
+    width: 120px;
+}
+
+.html_link{
+    position: relative;
+    top: 60px;
+    left: 320px;
+}
+
+.html{
+    height: 120px;
+    width: 120px;
+}
